@@ -20,6 +20,7 @@ import org.springframework.context.annotation.ImportResource;
 @ImportResource({"classpath*:spring/spring*.xml"})
 public class ProviderApplication {
     public static void main (String[] args) {
+
         SpringApplication springApplication = new SpringApplication(ProviderApplication.class);
        // 启动 Pandora Boot 用于加载 Pandora 容器
         PandoraBootstrap.run(args);
