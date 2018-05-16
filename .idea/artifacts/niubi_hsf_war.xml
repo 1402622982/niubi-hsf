@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="niubi-hsf:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="niubi-hsf-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="niubi-hsf:war exploded" />
+    </root>
+  </artifact>
+</component>
